@@ -49,4 +49,9 @@ return bankBranchInstance;
 getBranchInfo(){
     return this.branchInfo;
 }
-}
+ }
+
+ let branchA =new BankBranch({ name: "Branch A", location: "TygerValley"})
+ let branchB =new BankBranch({ name: "Branch B", location: "NoordHoek"})
+
+ 
