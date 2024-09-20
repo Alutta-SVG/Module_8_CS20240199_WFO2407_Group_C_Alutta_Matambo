@@ -54,4 +54,5 @@ getBranchInfo(){
  let branchA =new BankBranch({ name: "Branch A", location: "TygerValley"})
  let branchB =new BankBranch({ name: "Branch B", location: "NoordHoek"})
 
- 
+ console.log(branchA.getBranchInfo())
+ console.log(branchB.getBranchInfo())
